@@ -49,6 +49,7 @@
     mkdir local
     cat << EOF > ./local/neighbors_settings.py
     DEBUG = True
+    SECRET_KEY = 'your_secret_key'
 
     DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'
     DATABASES['default']['NAME'] = 'neighbors'
