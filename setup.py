@@ -5,7 +5,7 @@ version = __import__('neighbors').__version__
 
 
 INSTALL_REQUIRES = (
-    'Django==1.10.5',
+    'Django==1.10.8',
     'django-extra-fields==0.9',
     'djangorestframework==3.5.3',
     'psycopg2==2.6.2',
